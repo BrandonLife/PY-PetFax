@@ -10,4 +10,4 @@ pets = json.load(open("pets.json"))
 def pet_show(pet_id):
     id = int(pet_id)
     print(pets[id], "this is pets id page")
-    return render_template("pet_show.html", pets=pets[id])
+    return render_template("pets/pet_show.html", pets=pets[id])

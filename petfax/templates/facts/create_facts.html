@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <form>
+    <form action="/facts" method="POST">
         <h1>Create Facts</h1>
         <label for="submitter">Submitter</label>
         <input name="submitter" id="submitter" placeholder="Please enter your name">
-        <label for="facts">Facts</label>
-        <textarea name="facts" id="facts" placeholder="Enter facts about your pets"></textarea>
+        <label for="fact">Fact</label>
+        <textarea name="fact" id="fact" placeholder="Enter facts about your pets"></textarea>
         <input type="submit">
     </form>
 </body>
